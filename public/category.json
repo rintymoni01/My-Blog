@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Beach",
+    "description": "Relax by the sea and enjoy beautiful beaches, waves, and stunning sunsets.",
+    "image": "/image/category-beach.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mountain",
+    "description": "Explore majestic mountains, green hills, clouds, and breathtaking landscapes.",
+    "image": "/image/category-mountain.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Nature",
+    "description": "Reconnect with nature through forests, rivers, waterfalls, and peaceful surroundings.",
+    "image": "/image/category-nature.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Adventure",
+    "description": "Experience exciting journeys, trekking, hiking, and unforgettable adventures.",
+    "image": "/image/category-adventure.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Culture",
+    "description": "Discover local traditions, history, food, lifestyle, and cultural heritage.",
+    "image": "/image/category-culture.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Travel Tips",
+    "description": "Get useful tips and guides to make every journey easier and more enjoyable.",
+    "image": "/image/category-travel-tips.jpg"
+  },
+  {
+    "id": 7,
+    "name": "City Life",
+    "description": "Explore vibrant cities, famous landmarks, restaurants, shopping, and urban life.",
+    "image": "/image/category-city.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Food & Travel",
+    "description": "Taste delicious local dishes and discover the flavors behind every destination.",
+    "image": "/image/category-food.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Photography",
+    "description": "Capture beautiful destinations, landscapes, people, and unforgettable travel moments.",
+    "image": "/image/category-photography.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Luxury Travel",
+    "description": "Enjoy premium stays, beautiful resorts, fine dining, and unforgettable luxury experiences.",
+    "image": "/image/category-luxury.jpg"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Discover the Hidden Beauty of Cox's Bazar",
+    "description": "Explore the world's longest natural sea beach and discover peaceful places, local food, and unforgettable sunsets.",
+    "author": "Rinty Begum",
+    "date": "2026-08-28",
+    "category": "Beach",
+    "image": "https://ibb.co.com/677vQzPy",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "title": "A Journey Through the Hills of Bandarban",
+    "description": "Experience breathtaking mountains, green valleys, waterfalls, and the peaceful beauty of Bandarban.",
+    "author": "Rinty Begum",
+    "date": "2026-08-25",
+    "category": "Mountain",
+    "image": "https://ibb.co.com/1fsmCy5Q",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 3,
+    "title": "The Magical Tea Gardens of Sylhet",
+    "description": "Walk through endless green tea gardens and discover the natural charm and peaceful atmosphere of Sylhet.",
+    "author": "Rinty Begum",
+    "date": "2026-08-22",
+    "category": "Nature",
+    "image": "https://ibb.co.com/99H3KvKC",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 4,
+    "title": "Top Places to Visit in Sajek Valley",
+    "description": "From floating clouds to beautiful mountain views, Sajek is a perfect destination for a peaceful getaway.",
+    "author": "Rinty Begum",
+    "date": "2026-08-19",
+    "category": "Adventure",
+    "image": "https://ibb.co.com/v8Vhgf9",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 5,
+    "title": "Explore the Beauty of Saint Martin's Island",
+    "description": "Discover crystal-clear water, coral beaches, fresh seafood, and the relaxing island life of Saint Martin.",
+    "author": "Rinty Begum",
+    "date": "2026-08-16",
+    "category": "Beach",
+    "image": "https://ibb.co.com/SXR65LSD",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 6,
+    "title": "The Peaceful Charm of Ratargul Swamp Forest",
+    "description": "Take a boat ride through the magical forest of Ratargul and experience one of Bangladesh's unique natural wonders.",
+    "author": "Rinty Begum",
+    "date": "2026-08-13",
+    "category": "Nature",
+    "image": "https://ibb.co.com/Rpjj40Qh",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 7,
+    "title": "Travel Guide: The Ancient City of Sonargaon",
+    "description": "Step into history and explore the ancient architecture, culture, and heritage of Sonargaon.",
+    "author": "Rinty Begum",
+    "date": "2026-08-10",
+    "category": "Culture",
+    "image": "https://ibb.co.com/P8BqYTf",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 8,
+    "title": "A Perfect Weekend Getaway to Kuakata",
+    "description": "Enjoy the beautiful sea, peaceful environment, and breathtaking sunrise and sunset at Kuakata.",
+    "author": "Rinty Begum",
+    "date": "2026-08-07",
+    "category": "Beach",
+    "image": "https://ibb.co.com/677vQzPy",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 9,
+    "title": "Adventure Awaits in the Chittagong Hill Tracts",
+    "description": "Discover hidden waterfalls, green mountains, tribal culture, and thrilling adventures across the hill tracts.",
+    "author": "Rinty Begum",
+    "date": "2026-08-04",
+    "category": "Adventure",
+    "image": "https://ibb.co.com/1fsmCy5Q",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 10,
+    "title": "10 Essential Tips for Your Next Adventure",
+    "description": "Plan your next trip like a pro with these simple travel tips for a safe, comfortable, and memorable journey.",
+    "author": "Rinty Begum",
+    "date": "2026-08-01",
+    "category": "Travel Tips",
+    "image": "https://ibb.co.com/99H3KvKC",
+    "readTime": "5 min read"
+  }
+]

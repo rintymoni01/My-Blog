@@ -1,8 +1,10 @@
 import React from 'react';
+import HomeComponents from './HomeComponents';
 
 const Destinations = () => {
     return (
-        <div className="bg-gray-50 pt-10" >
+    <div>
+         <div className="bg-gray-50 pt-10" >
           <div className="text-center flex flex-col">
             <div className="">
                 <p className='text-xl text-color-gray-300 font-bold pb-5'>Your Destination, Your Story</p>
@@ -13,6 +15,12 @@ const Destinations = () => {
             </div>
           </div>
         </div>
+        <div>
+          <div>
+            <HomeComponents></HomeComponents>
+          </div>
+        </div>
+    </div>
     );
 };
 
