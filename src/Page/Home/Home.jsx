@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from './Hero';
+import Destinations from './HomeComponents/Destinations';
 ;
 
 const Home = () => {
@@ -10,6 +11,8 @@ const Home = () => {
               
             >
                 <Hero />
+                <Destinations></Destinations>
+               
             </div>
         </div>
     );
