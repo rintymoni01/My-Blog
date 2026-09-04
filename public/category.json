@@ -34,29 +34,6 @@
     "name": "Travel Tips",
     "description": "Get useful tips and guides to make every journey easier and more enjoyable.",
     "image": "/image/category-travel-tips.jpg"
-  },
-  {
-    "id": 7,
-    "name": "City Life",
-    "description": "Explore vibrant cities, famous landmarks, restaurants, shopping, and urban life.",
-    "image": "/image/category-city.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Food & Travel",
-    "description": "Taste delicious local dishes and discover the flavors behind every destination.",
-    "image": "/image/category-food.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Photography",
-    "description": "Capture beautiful destinations, landscapes, people, and unforgettable travel moments.",
-    "image": "/image/category-photography.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Luxury Travel",
-    "description": "Enjoy premium stays, beautiful resorts, fine dining, and unforgettable luxury experiences.",
-    "image": "/image/category-luxury.jpg"
   }
+
 ]

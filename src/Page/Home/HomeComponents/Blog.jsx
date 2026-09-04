@@ -1,9 +1,10 @@
 import React from 'react';
+import BlogCard from './BlogCard';
 
-const Blog = () => {
+const Blog = ({blogs}) => {
     return (
         <div>
-            blog
+            {blogs.map(blog=><BlogCard blog={blog}></BlogCard>)}
         </div>
     );
 };

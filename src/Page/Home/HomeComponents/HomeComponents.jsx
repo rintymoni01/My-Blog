@@ -19,17 +19,22 @@ const HomeComponents = () => {
         .then(res=>res.json())
         .then(data=>setCategories(data))
     },[])
+    const [categoryId,setCategoryId] =useState ()
+    const handleCaTegoryId = (id)=>{
+        setCategoryId(id)
+    }
+   
     return (
         <div className=''>
             <div>
                 <div className='grid grid-cols-12 gap-4  pt-6 container mx-auto'>
                     <div className='col-span-8 border border-gray-200 rounded-md'>
-                        <Blog></Blog>
+                        <Blog blogs={blogs}></Blog>
                      </div>
                     <div className='col-span-4 border border-gray-200 rounded-md'>
-                        <Category categories={categories}></Category>
+                        <Category categories={categories} handleCaTegoryId={handleCaTegoryId}></Category>
                         
-                        <CategoryBlogs blogs={blogs}></CategoryBlogs>
+                        <CategoryBlogs categoryId={categoryId} blogs={blogs}></CategoryBlogs>
                        
                     </div>
                 </div>
