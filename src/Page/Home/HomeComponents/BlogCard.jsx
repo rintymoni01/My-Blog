@@ -2,7 +2,7 @@ import React from 'react';
 
 const BlogCard = ({blog}) => {
     return (
-        <div className=' py-2 rounded-md'>
+        <div className=' py-1 rounded-md'>
             <div className="card card-side bg-base-100 shadow-sm">
   
     <img className='h-50 w-60 rounded-l-md'

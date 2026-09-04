@@ -27,7 +27,7 @@ const HomeComponents = () => {
     return (
         <div className=''>
             <div>
-                <div className='grid grid-cols-12 gap-4  pt-6 container mx-auto'>
+                <div className='grid grid-cols-12 gap-6  pt-6 container mx-auto'>
                     <div className='col-span-8 '>
                         <Blog blogs={blogs}></Blog>
                      </div>
