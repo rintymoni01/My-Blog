@@ -28,12 +28,6 @@
     "name": "Culture",
     "description": "Discover local traditions, history, food, lifestyle, and cultural heritage.",
     "image": "/image/category-culture.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Travel Tips",
-    "description": "Get useful tips and guides to make every journey easier and more enjoyable.",
-    "image": "/image/category-travel-tips.jpg"
   }
 
 ]

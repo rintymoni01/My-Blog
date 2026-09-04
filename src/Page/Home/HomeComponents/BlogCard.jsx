@@ -1,33 +1,105 @@
-import React from 'react';
+import React from "react";
 
-const BlogCard = ({blog}) => {
-    return (
-        <div className=' py-1 rounded-md'>
-            <div className="card card-side bg-base-100 shadow-sm">
-  
-    <img className='h-50 w-60 rounded-l-md'
-      src={blog.image}
-      alt="Movie" />
- 
-  <div className="card-body">
-    <h2 className="card-title text-xl font-bold ">{blog.title}</h2>
-    <p className='text-gray-700 font-semibold '>{blog.description}</p>
-   <div className='' >
-    <div className="card-actions justify-between pr-4 items-end">
-    <button className="btn btn-primary mt-3 hover hover:bg-black hover:text-white">
-        View more
-    </button>
+const BlogCard = ({ blog }) => {
+  return (
+    <div className=" py-1 rounded-md">
+      <div className="card card-side bg-base-100 border border-gray-100 ">
+        <img className="h-55 w-60 rounded-l-md" src={blog.image} alt="Movie" />
 
-    <div className="flex gap-4">
-        <p className="text-xs text-gray-500 mt-4">{blog.date}</p>
-        <p className="text-xs text-gray-500 mt-4">{blog.readTime}</p>
-    </div>
-</div>
-    </div>
-  </div>
-</div>
+        <div className="card-body">
+          <h2 className="card-title text-xl font-bold ">{blog.title}</h2>
+          <div className="flex pb-2">
+            <p className="text-xs font-bold text-gray-700">{blog.author}</p>
+            <p className="text-xs text-gray-500 ">{blog.date}</p>
+          </div>
+          <p className="text-gray-400 text-xs font-semibold ">
+            {blog.description}
+          </p>
+          <div className="">
+            <div className="card-actions justify-between pr-4 items-center">
+              <div>
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <button
+                  className="btn bg-pink-600 font-semibold text-white text-center "
+                  onClick={() =>
+                    document.getElementById("my_modal_3").showModal()
+                  }
+                >
+                  View More
+                </button>
+                <dialog id="my_modal_3" className="modal ">
+                  <div className="modal-box max-w-6xl">
+                    <form method="dialog">
+                      {/* if there is a button in form, it will close the modal */}
+                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                        ✕
+                      </button>
+                    </form>
+                   <div>
+<div className="card card-side bg-base-100 border border-gray-100 ">
+        <img className="h-55 w-60 rounded-l-md" src={blog.image} alt="Movie" />
+
+        <div className="card-body">
+          <h2 className="card-title text-xl font-bold ">{blog.title}</h2>
+          <div className="flex pb-2">
+            <p className="text-xs font-bold text-gray-700">{blog.author}</p>
+            <p className="text-xs text-gray-500 ">{blog.date}</p>
+          </div>
+          <p className="text-gray-400 text-xs font-semibold ">
+            {blog.longDescription}
+          </p>
+          <div className="">
+            <div className="card-actions justify-between pr-4 items-center">
+             
+
+              <div className="flex gap-4 items-center">
+                <div className="flex  gap-1 items-center">
+                  <p className="text-xs text-gray-500  font-semibold">
+                    Total views:
+                  </p>
+                  <p className="text-xs text-gray-500 font-semibold ">
+                    {blog.views}
+                  </p>
+                </div>
+                <div className="flex">
+                  <p className="text-xs text-gray-500 font-semibold ">
+                    {blog.readTime}
+                  </p>
+                  <p className="text-xs text-gray-500 font-semibold">Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      </div>
+                   </div>
+                  </div>
+                </dialog>
+              </div>
+
+              <div className="flex gap-4 items-center">
+                <div className="flex  gap-1 items-center">
+                  <p className="text-xs text-gray-500  font-semibold">
+                    Total views:
+                  </p>
+                  <p className="text-xs text-gray-500 font-semibold ">
+                    {blog.views}
+                  </p>
+                </div>
+                <div className="flex">
+                  <p className="text-xs text-gray-500 font-semibold ">
+                    {blog.readTime}
+                  </p>
+                  <p className="text-xs text-gray-500 font-semibold">Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  );
 };
 
 export default BlogCard;

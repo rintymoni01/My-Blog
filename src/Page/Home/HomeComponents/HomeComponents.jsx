@@ -25,7 +25,7 @@ const HomeComponents = () => {
     }
    
     return (
-        <div className=''>
+        <div className='bg-gray-200'>
             <div>
                 <div className='grid grid-cols-12 gap-6  pt-6 container mx-auto'>
                     <div className='col-span-8 '>
