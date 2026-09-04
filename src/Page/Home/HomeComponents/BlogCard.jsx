@@ -22,16 +22,16 @@ const BlogCard = ({ blog }) => {
                 <button
                   className="btn bg-pink-600 font-semibold text-white text-center "
                   onClick={() =>
-                    document.getElementById("my_modal_3").showModal()
+                    document.getElementById(`modal_${blog.id}`).showModal()
                   }
                 >
                   View More
                 </button>
-                <dialog id="my_modal_3" className="modal ">
-                  <div className="modal-box max-w-6xl">
+                <dialog id={`modal_${blog.id}`} className="modal ">
+                  <div className="modal-box relative h-fit max-w-6xl">
                     <form method="dialog">
                       {/* if there is a button in form, it will close the modal */}
-                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 z-50">
                         ✕
                       </button>
                     </form>
