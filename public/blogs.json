@@ -11,7 +11,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-28",
     "category": "Beach",
-    "image": "https://ibb.co.com/5mb7j00",
+    "image": "src/assets/blog-08.jpg",
     "readTime": "5 min read"
   },
   {
@@ -21,7 +21,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-25",
     "category": "Mountain",
-    "image": "https://ibb.co.com/YBtBBv79",
+    "image": "src/assets/picture-of-bandarban-hill-tract-bangladesh-natural-hill-landscape-with-with-clouds-2H7X5M7.jpg",
     "readTime": "6 min read"
   },
   {
@@ -31,7 +31,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-22",
     "category": "Nature",
-    "image": "https://ibb.co.com/99H3KvKC",
+    "image": "src/assets/c595992c30bf49f794b3b7b6c1d3931e.jpg",
     "readTime": "4 min read"
   },
   {
@@ -41,7 +41,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-19",
     "category": "Adventure",
-    "image": "https://ibb.co.com/v8Vhgf9",
+    "image": "src/assets/nilgiri-mountains-at-bandarban-bangladesh.jpg",
     "readTime": "7 min read"
   },
   {
@@ -51,7 +51,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-16",
     "category": "Beach",
-    "image": "https://ibb.co.com/P8BqYTf",
+    "image": "src/assets/picture-of-bandarban-hill-tract-bangladesh-natural-hill-landscape-with-with-clouds-2H7X5M7.jpg",
     "readTime": "5 min read"
   },
   {
@@ -61,7 +61,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-13",
     "category": "Nature",
-    "image": "https://ibb.co.com/Rpjj40Qh",
+    "image": "src/assets/ede45aa84ed78cd13f76016c9f12e7ddfa2d17f4.jpeg",
     "readTime": "5 min read"
   },
   {
@@ -71,7 +71,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-10",
     "category": "Culture",
-    "image": "https://ibb.co.com/P8BqYTf",
+    "image": "src/assets/Sonargaon-the-first-capital-of-Bengal-2-477x322.webp",
     "readTime": "6 min read"
   },
   {
@@ -81,7 +81,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-07",
     "category": "Beach",
-    "image": "https://ibb.co.com/677vQzPy",
+    "image": "src/assets/Morning-sea.jpg",
     "readTime": "4 min read"
   },
   {
@@ -91,7 +91,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-04",
     "category": "Adventure",
-    "image": "https://ibb.co.com/1fsmCy5Q",
+    "image": "src/assets/nilgiri-mountains-at-bandarban-bangladesh.jpg",
     "readTime": "8 min read"
   },
   {
@@ -101,7 +101,7 @@
     "author": "Rinty Begum",
     "date": "2026-08-01",
     "category": "Travel Tips",
-    "image": "https://ibb.co.com/99H3KvKC",
+    "image": "src/assets/Ratargul-Swamp-Forest-Travel-1024x588.jpg",
     "readTime": "5 min read"
   }
 ]

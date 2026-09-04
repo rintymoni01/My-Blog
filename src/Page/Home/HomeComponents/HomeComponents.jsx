@@ -20,7 +20,7 @@ const HomeComponents = () => {
         .then(data=>setCategories(data))
     },[])
     return (
-        <div>
+        <div className=''>
             <div>
                 <div className='grid grid-cols-12 gap-4  pt-6 container mx-auto'>
                     <div className='col-span-8 border border-gray-200 rounded-md'>
