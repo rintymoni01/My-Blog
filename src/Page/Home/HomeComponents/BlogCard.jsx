@@ -20,7 +20,7 @@ const BlogCard = ({ blog }) => {
               <div>
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
                 <button
-                  className="btn bg-pink-600 font-semibold text-white text-center "
+                  className="btn bg-[#2E56CE] font-semibold text-white text-center "
                   onClick={() =>
                     document.getElementById(`modal_${blog.id}`).showModal()
                   }
