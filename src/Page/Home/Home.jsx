@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './Hero';
+
 import Destinations from './HomeComponents/Destinations';
 ;
 
@@ -10,7 +10,7 @@ const Home = () => {
                 
               
             >
-                <Hero />
+              
                 <Destinations></Destinations>
                
             </div>
