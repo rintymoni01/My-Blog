@@ -3,10 +3,10 @@ import React from "react";
 const BlogCard = ({ blog }) => {
   return (
     <div className=" py-1 rounded-md">
-      <div className="card card-side bg-base-100 border border-gray-100 ">
-        <img className="h-55 w-60 rounded-l-md" src={blog.image} alt="Movie" />
+      <div className="card card-side flex lg:flex-row items-center flex-col bg-base-100 border border-gray-100 ">
+        <img className="h-55 w-60 rounded-md" src={blog.image} alt="Movie" />
 
-        <div className="card-body">
+        <div className="card-body flex flex-col gap-4">
           <h2 className="card-title text-xl font-bold ">{blog.title}</h2>
           <div className="flex pb-2">
             <p className="text-xs font-bold text-gray-700">{blog.author}</p>
