@@ -17,10 +17,7 @@ const TopHeader = () => {
                 <p>Blog</p>
                 
                 <p>Privacy</p>
-               <div className="flex gap-1">
-                <p>Contact</p>
-                <p className="text-gray-500">(01834688332)</p>
-               </div>
+              
             </div>
                 
             </div>
