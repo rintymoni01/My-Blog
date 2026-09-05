@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './Components/Shared/Header';
+
 import Footer from './Components/Shared/Footer';
 import Home from './Page/Home/Home';
+import TopHeader from './Components/TopHeader';
 
 const App = () => {
   return (
     <div>
-      <Header></Header>
+<TopHeader></TopHeader>
+      
       <Home></Home>
       <Footer></Footer>
     </div>
