@@ -8,20 +8,20 @@ const CategoryBlogs = ({blogs,categoryId}) => {
         {
           filterBlogs.map(blog=>(
                 <div className='items-center container  mx-auto gap-4 py-1  '>
-<div className='border  flex justify-between items-center border-gray-200 rounded-md gap-2 py-2 px-1'>
+<div className='  flex justify-between items-center shadow-xl rounded-md gap-2 py-2 px-1'>
     <div>
-    <img className='h-20 w-20 rounded-md' src={blog.image} alt={blog.title} />
+    <img className='h-16 w-16 rounded-md' src={blog.image} alt={blog.title} />
 </div>
                
-               <div className='items-center container mx-auto '>
+               <div className='items-center container mx-auto pr-10'>
                  <p className=' test-black font-semibold'> {blog.title}</p>
              <div> 
-                <div className=" pr-4 items-center">
+                <div className=" flex gap-12 items-center ">
                     <p className='text-xs text-gray-600'>{blog.author}</p>
               <div>
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
                 <button
-                  className="btn btn-xs px-1 bg-pink-600 font-semibold  text-white text-center "
+                  className="btn btn-xs px-1  bg-pink-400 text-black hover:text-black hover:bg-white  hover:shadow-md font-semibold  text-white text-center "
                   onClick={() =>
                     document.getElementById(`modal_${blog.id}`).showModal()
                   }
