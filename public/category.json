@@ -3,31 +3,35 @@
     "id": 1,
     "name": "Beach",
     "description": "Relax by the sea and enjoy beautiful beaches, waves, and stunning sunsets.",
-    "image": "/image/category-beach.jpg"
+    "image": "/image/category-beach.jpg",
+    "place": "Cox's Bazar"
   },
   {
     "id": 2,
     "name": "Mountain",
     "description": "Explore majestic mountains, green hills, clouds, and breathtaking landscapes.",
-    "image": "/image/category-mountain.jpg"
+    "image": "/image/category-mountain.jpg",
+    "place": "Sajek Valley"
   },
   {
     "id": 3,
     "name": "Nature",
     "description": "Reconnect with nature through forests, rivers, waterfalls, and peaceful surroundings.",
-    "image": "/image/category-nature.jpg"
+    "image": "/image/category-nature.jpg",
+    "place": "Sundarbans"
   },
   {
     "id": 4,
     "name": "Adventure",
     "description": "Experience exciting journeys, trekking, hiking, and unforgettable adventures.",
-    "image": "/image/category-adventure.jpg"
+    "image": "/image/category-adventure.jpg",
+    "place": "Nilgiri"
   },
   {
     "id": 5,
     "name": "Culture",
     "description": "Discover local traditions, history, food, lifestyle, and cultural heritage.",
-    "image": "/image/category-culture.jpg"
+    "image": "/image/category-culture.jpg",
+    "place": "Sonargaon"
   }
-
 ]
