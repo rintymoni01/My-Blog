@@ -1,9 +1,11 @@
 import React from 'react';
 
-const SharedComponents = ({}) => {
+const SharedComponents = ({heading, colorHeading, discription}) => {
     return (
         <div>
-            
+            <div>
+                
+            </div>
         </div>
     );
 };
