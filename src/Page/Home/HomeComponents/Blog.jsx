@@ -5,7 +5,7 @@ const Blog = ({blogs}) => {
     const sortBlog =[...blogs].sort((a,b)=>b.views- addEventListener.views)
     return (
         <div>
-            {sortBlog.map(blog=><BlogCard blog={blog}></BlogCard>)}
+            {sortBlog.slice(0, 6).map(blog=><BlogCard blog={blog}></BlogCard>)}
         </div>
     );
 };

@@ -7,7 +7,7 @@ const CategoryBlogs = ({blogs,categoryId}) => {
         <div className='p-3'>
      
 { 
-  filterBlogs.slice(0, 7).map(blog => ( 
+  filterBlogs.slice(0, 6).map(blog => ( 
     <div className='items-center container mx-auto gap-4 py-1'>
       <div className='flex justify-between items-center shadow-xl rounded-md gap-2 py-2 px-1'>
 
