@@ -4,7 +4,7 @@ const SharedComponents = ({heading, colorHeading, discription}) => {
     return (
         <div>
             <div>
-                
+                <h1>{heading}{colorHeading}{discription}</h1>
             </div>
         </div>
     );
