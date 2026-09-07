@@ -2,23 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Blog from './Blog';
 import Category from './Category';
 import CategoryBlogs from './CategoryBlogs';
+import useData from '../../../Components/Shared/Hooks/useData';
 
 const HomeComponents = () => {
+const {blogs,categories}=useData()
 
-   const[blogs,setBlogs]=useState([])
-   useEffect(()=>{
-    fetch("blogs.json")
-    .then(res=>res.json())
-    .then(data => setBlogs(data))
-   },[])
-
-
-    const [categories,setCategories]=useState([])
-    useEffect(()=>{
-        fetch("category.json")
-        .then(res=>res.json())
-        .then(data=>setCategories(data))
-    },[])
     const [categoryId,setCategoryId] =useState ()
     const handleCaTegoryId = (id)=>{
         setCategoryId(id)
