@@ -4,6 +4,8 @@ import SheardBlogCard from "../../../Components/Shared/SheardBlogCard";
 
 const YourChoose = ({ handleCaTegoryId }) => {
  const {blogs,categories} =useData()
+
+ 
   const [categoryId, setCategoryId] =useState()
   const handleCategoryId=(id)=>{
     setCategoryId(id)
@@ -27,8 +29,8 @@ const YourChoose = ({ handleCaTegoryId }) => {
           ))}
         </div>
       </div>
-      <div>
-        <div>
+      <div className="px-4 items-center container mx-auto ">
+        <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-4 gap-5 ">
             {blogs.map(blog => <SheardBlogCard blog= {blog}></SheardBlogCard>)}
         </div>
       </div>
