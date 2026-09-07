@@ -31,7 +31,8 @@ const YourChoose = ({ handleCaTegoryId }) => {
       </div>
       <div className="px-4 items-center container mx-auto py-10">
         <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-4 gap-5  ">
-            {blogs.map(blog => <SheardBlogCard blog= {blog}></SheardBlogCard>)}
+            {blogs.slice(0,8)
+            .map(blog => <SheardBlogCard blog= {blog}></SheardBlogCard>)}
         </div>
       </div>
     </div>
