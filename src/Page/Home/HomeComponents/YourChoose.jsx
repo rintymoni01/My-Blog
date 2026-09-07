@@ -29,8 +29,8 @@ const YourChoose = ({ handleCaTegoryId }) => {
           ))}
         </div>
       </div>
-      <div className="px-4 items-center container mx-auto ">
-        <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-4 gap-5 ">
+      <div className="px-14 items-center container mx-auto ">
+        <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-4 gap-5  ">
             {blogs.map(blog => <SheardBlogCard blog= {blog}></SheardBlogCard>)}
         </div>
       </div>
