@@ -3,7 +3,9 @@ import React from 'react';
 const SheardBlogCard = ({blog}) => {
     return (
         <div>
-            <img src="" alt="" />
+            <div>
+                <img className='w-52 h-42' src={blog.image} alt="" />
+            </div>
         </div>
     );
 };
