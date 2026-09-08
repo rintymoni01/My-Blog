@@ -1,9 +1,13 @@
 import React from 'react';
+import dicplay from'../../../assets/dicplay.jfif'
 
 const Dicplay = () => {
     return (
-        <div className=''>
-            <img className='w-full h-[70vh]' src="src/assets/TUvuZgR3UqNQTZyoYqV_ekn3x9O9nJinUl4Tvbpk0FABXWYSpy6x7J_Op5UWobeyiiUHJe4o98QCu7DoRzu0niU4l2mTdEV0G-tb4hfHlmuI_5MBfQeoADXo8cqrEtDIPKEU4pd6y0w5wr9GlS2tAp1e5W_5RwgKq33TJfuS2Cjk2Hg2dA2PvdaX0saZ.jfif" alt="" />
+        <div className='h-[70vh] w-360 bg-cover bg-center bg-no-repeat ' style={{backgroundImage:`url(${dicplay})`}}>
+           
+            <p>Pause Life. Find Yourself.
+Sometimes, all you need is a little time away from the rush of life.
+Explore Your Journey →</p>
         </div>
     );
 };
