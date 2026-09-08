@@ -17,14 +17,14 @@ const SheardBlogCard = ({ blog }) => {
               <TiStarFullOutline />
               <TiStarFullOutline />
             </div>
-            <div className="">
-              <Link to="/blog">
-                <button className="flex gap-1 items-center px-3 rounded-md font-semibold bg-sky-800 text-white">
-                  <p>See all</p>
-                  <RiArrowRightLongLine />
-                </button>
-              </Link>
-            </div>
+           <div>
+  <Link to={`/home/${blog.id}`}>
+    <button className="flex gap-1 items-center px-3 rounded-md font-semibold bg-sky-800 text-white">
+      <p>See all</p>
+      <RiArrowRightLongLine />
+    </button>
+  </Link>
+</div>
           </div>
           <div className="flex py-1 justify-between gap-2 text-xs pb-2 text-gray-500">
             <p> Views:{blog.views}</p>

@@ -20,7 +20,7 @@ const Hero = () => {
                          to answer the call?</p>
                 </div>
         <div className="">
-     <div className="lg:pt-75 pt-40 pl-12">
+     <div className="lg:pt-35 pt-40 pl-12">
             <div className=" rounded-md mx-auto font-semibold  lg:mx-0  w-36 hover:text-white bg-pink-500 hover:font-semibold duration-1000  shadow-2xl  px-6 py-1 hover:bg-black text-white">
   Explore Now
 </div>

@@ -10,6 +10,7 @@ import About from './Page/About/About';
 import Blog from './Page/Blog/Blog';
 import SuccessStory from './Page/SuccessStory/SuccessStory';
 import Contact from './Page/Contact/Contact';
+import SingleBlogs from './Components/Shared/SingleBlogs';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/blog", element: <Blog></Blog> },
       { path: "/successStory", element: <SuccessStory></SuccessStory> },
        { path: "/contact", element: <Contact></Contact> },
+        { path: "/home/:id", element: <SingleBlogs></SingleBlogs> },
       
     ],
   },
