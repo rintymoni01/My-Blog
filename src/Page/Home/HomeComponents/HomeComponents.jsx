@@ -13,7 +13,7 @@ const {blogs,categories}=useData()
     }
    
     return (
-        <div className='bg-gray-200'>
+        <div className='bg-gray-200 pt-6'>
             <div>
                 <div className='grid grid-cols-1 lg:grid-cols-12  gap-6  pt-6 container mx-auto'>
                     <div className='col-span-8 lg:order-1 order-2 '>

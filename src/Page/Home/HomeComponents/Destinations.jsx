@@ -1,5 +1,6 @@
 import React from "react";
 import HomeComponents from "./HomeComponents";
+import Dicplay from "./Dicplay";
 
 
 
@@ -22,6 +23,7 @@ const Destinations = () => {
       </div>
       <div>
         <div>
+          <Dicplay></Dicplay>
          
           <HomeComponents></HomeComponents>
         </div>
