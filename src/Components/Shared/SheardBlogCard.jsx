@@ -18,7 +18,7 @@ const SheardBlogCard = ({ blog }) => {
               <TiStarFullOutline />
             </div>
             <div className="">
-              <Link>
+              <Link to="/blog">
                 <button className="flex gap-1 items-center px-3 rounded-md font-semibold bg-sky-800 text-white">
                   <p>See all</p>
                   <RiArrowRightLongLine />
