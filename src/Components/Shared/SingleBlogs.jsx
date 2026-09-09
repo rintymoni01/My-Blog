@@ -20,10 +20,10 @@ const SingleBlogs = () => {
             src={findBlogs?.image}
             alt={""}
           />
-          <div className="flex gap-3 pt-3 items-center justify-center ">
+          <div className="flex gap-3 pt-8 items-center justify-center ">
             {categories?.slice(0, 3).map((c) => (
               <div key={c.id}>
-                <img className="h-28 w-35" src={c?.image} alt="" />
+                <img className="h-18 w-35" src={c?.image} alt="" />
               </div>
             ))}
           </div>
@@ -115,12 +115,12 @@ const SingleBlogs = () => {
       <div>
         
       </div>
-<div  className="flex  gap-4 sha justify-center py-8">
+<div  className="flex  gap-4 justify-center py-8">
   {categories?.slice(7,10).map((c) => (
-              <div className="flex gap-4" key={c.id}>
-                <img className="h-17 w-28" src={c?.image} alt="" />
+              <div className="flex gap-4 rounded-md shadow-2xl " key={c.id}>
+                <img className="h-18 rounded-l-md w-28" src={c?.image} alt="" />
                 
-                <div className="w-70">
+                <div className="w-55">
                   <p className="text-sm font-bold ">{c.name}</p>
                 <p className="text-xs text-gray-400">{c.description}</p>
                  <div className="flex  pb-1 items-center">

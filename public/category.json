@@ -2,70 +2,70 @@
   {
     "id": 1,
     "name": "Beach",
-    "description": "Relax by the sea and enjoy beautiful beaches, waves, and stunning sunsets.",
+    "description": "Enjoy beautiful beaches, waves, and sunsets.",
     "image": "/Image/betch.jpg",
     "place": "Cox's Bazar"
   },
   {
     "id": 2,
     "name": "Mountain",
-    "description": "Explore majestic mountains, green hills, clouds, and breathtaking landscapes.",
+    "description": "Explore green hills, clouds, and stunning views.",
     "image": "/Image/Mountain.jpg",
     "place": "Sajek Valley"
   },
   {
     "id": 3,
     "name": "Nature",
-    "description": "Reconnect with nature through forests, rivers, waterfalls, and peaceful surroundings.",
+    "description": "Enjoy forests, rivers, waterfalls, and peaceful nature.",
     "image": "/Image/Nature.webp",
     "place": "Sundarbans"
   },
   {
     "id": 4,
     "name": "Adventure",
-    "description": "Experience exciting journeys, trekking, hiking, and unforgettable adventures.",
+    "description": "Experience trekking, hiking, and exciting adventures.",
     "image": "/Image/Adventure.jpg",
     "place": "Nilgiri"
   },
   {
     "id": 5,
     "name": "Culture",
-    "description": "Discover local traditions, history, food, lifestyle, and cultural heritage.",
+    "description": "Discover traditions, history, food, and local culture.",
     "image": "/Image/Culture.jpg",
     "place": "Sonargaon"
   },
   {
     "id": 6,
     "name": "Waterfall",
-    "description": "Enjoy refreshing waterfalls, flowing streams, green hills, and peaceful natural beauty.",
+    "description": "Enjoy waterfalls, streams, hills, and natural beauty.",
     "image": "/Image/Waterfall.jpg",
     "place": "Jadipai Waterfall"
   },
   {
     "id": 7,
     "name": "River",
-    "description": "Discover beautiful rivers, peaceful boat rides, river views, and scenic landscapes.",
+    "description": "Enjoy peaceful rivers, boat rides, and scenic views.",
     "image": "/Image/River.jfif",
     "place": "Padma River"
   },
   {
     "id": 8,
     "name": "Historical",
-    "description": "Explore ancient architecture, historical landmarks, and the rich heritage of Bangladesh.",
+    "description": "Explore ancient landmarks and rich historical.",
     "image": "/Image/Historical.jfif",
     "place": "Paharpur"
   },
   {
     "id": 9,
     "name": "Forest",
-    "description": "Explore lush forests, wildlife, green landscapes, and peaceful natural environments.",
+    "description": "Explore lush forests, wildlife, and green landscapes.",
     "image": "/Image/forest.avif",
     "place": "Lawachara"
   },
   {
     "id": 10,
     "name": "Island",
-    "description": "Experience beautiful islands, crystal-clear water, beaches, and unforgettable coastal views.",
+    "description": "Enjoy beautiful islands, beaches, and coastal views.",
     "image": "/Image/Island.avif",
     "place": "Saint Martin's Island"
   }
