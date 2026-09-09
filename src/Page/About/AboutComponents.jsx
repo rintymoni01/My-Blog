@@ -95,14 +95,14 @@ const AboutComponents = () => {
         </div>
       </div>
 </div>
-      <div>
+      {/* <div>
         {blogs?.map((c) => (
         <div>
 
         </div>
          
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
