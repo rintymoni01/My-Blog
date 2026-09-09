@@ -1,6 +1,7 @@
 import React from "react";
 import useData from "../../Components/Shared/Hooks/useData";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { Link } from "react-router";
 
 const AboutComponents = () => {
   const { blogs, categories } = useData();
@@ -49,7 +50,7 @@ const AboutComponents = () => {
             alt=""
           />
           <div>
-            <p className="text-3xl font-bold pt-12">
+            <p className="text-3xl font-bold pt-24">
               Colorful flowers in a peaceful garden.
             </p>
             <p className="py-4 text-sm font-semibold text-gray">
@@ -58,8 +59,8 @@ const AboutComponents = () => {
               the heart feel alive.
             </p>
 
-            <div className="">
-                <p>R</p>
+            <div className="gap-2 flex pb-4 items-center">
+                <p className="font-bold">Rating:</p>
               <p className="flex  text-orange-500 font-bold">
                 <FaStar />
                 <FaStar />
@@ -67,12 +68,18 @@ const AboutComponents = () => {
                 <FaStarHalfAlt />
               </p>
             </div>
+            <Link>
+            <div className="bg-blue-900 text-white font-semibold text-center duration-700 rounded-4xl hover hover:bg-pink-700 py-2 w-34">
+                <p className="">See Views</p>
+            </div>
+            </Link>
           </div>
         </div>
       </div>
       <div>
         {blogs?.map((c) => (
-          <div></div>
+        <img className="h-60 w-80" src={c?.image} alt="" />
+         
         ))}
       </div>
     </div>
