@@ -31,10 +31,10 @@ const SingleBlogs = () => {
 
         <div className="w-145">
           <p className="text-gray-400 font-semibold">{findBlogs?.category}</p>
-          <p className="text-gray-800 font-semibold text-2xl">
+          <p className="text-gray-800 font-semibold py-4 text-2xl">
             {findBlogs?.location}
           </p>
-          <p className="text-sm font-semibold text-gray-400 pt-2 pb-1">
+          <p className="text-sm font-semibold text-gray-400  pb-2">
             {findBlogs?.longDescription}
           </p>
           
@@ -69,7 +69,7 @@ const SingleBlogs = () => {
             
           </div>
           <div className="flex gap-1 pb-1 items-center">
-            <p className="text-[#007d8e] font-bold">reating:</p>
+            <p className="text-[#007d8e] font-bold">Reating:</p>
             <TiStarFullOutline className="text-orange-500" />
             <TiStarFullOutline className="text-orange-500" />
             <TiStarFullOutline className="text-orange-500" />
@@ -109,6 +109,9 @@ const SingleBlogs = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div>
+        <p>jdfkydfdsf</p>
       </div>
       
     </div>
