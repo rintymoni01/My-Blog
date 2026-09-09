@@ -9,11 +9,11 @@ const SingleBlogs = () => {
     const findBlogs = blogs.find(b => b.id == Number(id));
 
     return (
-        <div>
+        <div className='items-center container mx-auto px-4 py-8'>
             <div>
-                <img 
+                <img  className='w-70 h-70 rounded-t-md'
                     src={findBlogs?.image} 
-                    alt={findBlogs?.title || ""} 
+                    alt={""} 
                 />
             </div>
 
