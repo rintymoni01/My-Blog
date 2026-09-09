@@ -20,17 +20,17 @@ const SingleBlogs = () => {
 
           <div className='w-145'>
                
-            <p className='text-gray-800 font-semibold text-xl'>{findBlogs?.location}</p>
-            <p className='text-xs font-bold text-gray-500'>{findBlogs.longDescription}</p>
-            <div className='flex gap-4  items-center'>
+            <p className='text-gray-800 font-semibold text-2xl'>{findBlogs?.location}</p>
+            <p className='text-sm font-bold text-gray-500 pt-4 pb-1'>{findBlogs.longDescription}</p>
+            <div className='flex gap-4  items-center py-1'>
               <p className='text-[#007d8e] font-bold '>duration: <span className='text-gray-600 font-semibold '>{findBlogs?.duration}</span></p>
             <p className='text-[#007d8e] font-bold '>difficulty: <span className='text-gray-600 font-semibold '>{findBlogs?.difficulty}</span></p>
             </div>
             <p className='text-[#007d8e] font-bold'>bestTime: <span className='text-gray-600 font-semibold '> {findBlogs?.bestTime}</span></p>
-            <p>{findBlogs?.tags}</p>
+            <p className='py-1'>{findBlogs?.tags}</p>
            <div className='flex gap-4'>
-             <p>{findBlogs?.transport}</p>
-            <p>{findBlogs?.budget}</p>
+             <p className='text-[#007d8e] font-bold'>{findBlogs?.transport}</p>
+            <p className='text-gray-600 font-semibold  '> <u>{findBlogs?.budget}</u></p>
            </div>
           </div>
           </div>
