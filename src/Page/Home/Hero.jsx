@@ -1,12 +1,12 @@
 import React from 'react';
-import bg from '../../assets/bg.jpg';
+
 import Header from '../../Components/Shared/Header';
 
 const Hero = () => {
     return (
         <div
             className="h-[600px] sm:h-[500px] md:h-[550px] lg:h-[80vh] bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${bg})` }}
+           style={{ backgroundImage: `url('/Image/bg.jpg')` }}
         
         >
             <div>

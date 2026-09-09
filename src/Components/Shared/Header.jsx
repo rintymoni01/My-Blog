@@ -1,13 +1,13 @@
 import { FaTelegramPlane } from "react-icons/fa";
  import { IoCartOutline, IoSearchOutline } from "react-icons/io5";
 import { NavLink } from "react-router";
-import rinty from "../../assets/rrrrrr.png"
+
 
 const Header = () => {
   return (
     <div className="bg-black/25 ">
       <div className="flex justify-between items-center container py-2 mx-auto px-4">
-        <img className="h-8 w-26" src={rinty} alt="" />
+        <img className="h-8 w-26" src="/Image/rrrrrr.png" alt="" />
         <div className="text-white flex gap-4">
           
           <NavLink className={({isActive})=> isActive? `text-green-500`: ``} to="/">Home</NavLink>

@@ -1,13 +1,13 @@
-import React from "react";
-import dicplay from "../../../assets/dicplay.jfif";
+
+
 import { Link } from "react-router";
-import { FaArrowRightLong } from "react-icons/fa6";
+
 
 const Dicplay = () => {
   return (
     <div
       className="h-[70vh] w-360   bg-cover bg-center bg-no-repeat "
-      style={{ backgroundImage: `url(${dicplay})` }}
+      style={{ backgroundImage: `url("/Image/dicplay.jfif")` }}
     >
       <div className="   py-45">
         <p className="text-2xl pl-26 text-white font-bold ">Pause Life. Find Yourself.</p>
