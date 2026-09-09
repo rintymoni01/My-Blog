@@ -115,21 +115,21 @@ const SingleBlogs = () => {
       <div>
         
       </div>
-<div  className="flex  gap-4  justify-center py-8">
+<div  className="flex  gap-4 sha justify-center py-8">
   {categories?.slice(7,10).map((c) => (
               <div className="flex gap-4" key={c.id}>
-                <img className="h-15 w-25" src={c?.image} alt="" />
+                <img className="h-17 w-28" src={c?.image} alt="" />
                 
                 <div className="w-70">
                   <p className="text-sm font-bold ">{c.name}</p>
                 <p className="text-xs text-gray-400">{c.description}</p>
                  <div className="flex  pb-1 items-center">
-            <p className=" font-bold  items-center">Reating:</p>
+            <p className=" text-xs font-semibold text-gray-700  items-center">Reating:</p>
             <space></space>
             <TiStarFullOutline className="text-xs text-orange-500" />
-            <TiStarFullOutline className="" />
-            <TiStarFullOutline className="" />
-            <TiStarFullOutline className="" />
+            <TiStarFullOutline className=" text-xs text-orange-500" />
+            <TiStarFullOutline className=" text-xs text-orange-500" />
+            <TiStarFullOutline className="text-xs text-orange-500" />
                 </div>
           </div>
               </div>
