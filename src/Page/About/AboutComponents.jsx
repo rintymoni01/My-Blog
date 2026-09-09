@@ -40,9 +40,17 @@ const AboutComponents = () => {
 
       </div>
     </div>
-    <div>
-        <img className="w-150 h-[40vh] " src="/Image/colourfull.jfif" alt="" />
-        <p className="">Let life be like nature—colorful, beautiful, and free.</p>
+    <div className="px-4 container mx-auto">
+        <div className="flex py-12  gap-8">
+        <img className="w-150 h-[40vh] rounded-2xl " src="/Image/colourfull.jfif" alt="" />
+       <div>
+         <p className="text-3xl font-bold pt-12">Colorful flowers in a peaceful garden.</p>
+        <p className="py-4 text-sm font-semibold text-gray">Let life be like nature—colorful, beautiful, and free.
+        where there are rivers, endless blue skies,
+        and beautiful moments that make the heart feel alive.</p>
+        
+       </div>
+    </div>
     </div>
      <div>
          {blogs?.map((c) => (
