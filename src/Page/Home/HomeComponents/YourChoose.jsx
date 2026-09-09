@@ -36,7 +36,7 @@ const YourChoose = () => {
 
                 {/* Categories */}
                 <div className="flex gap-4">
-                    {categories.map((category) => (
+                    {categories.slice(0,4).map((category) => (
                         <p
                             key={category.id}
                             onClick={() => handleCategoryId(category.id)}
