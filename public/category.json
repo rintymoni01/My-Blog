@@ -45,28 +45,28 @@
     "id": 7,
     "name": "River",
     "description": "Discover beautiful rivers, peaceful boat rides, river views, and scenic landscapes.",
-    "image": "/Image/River.jpg",
+    "image": "/Image/River.jfif",
     "place": "Padma River"
   },
   {
     "id": 8,
     "name": "Historical",
     "description": "Explore ancient architecture, historical landmarks, and the rich heritage of Bangladesh.",
-    "image": "/Image/Historical.jpg",
+    "image": "/Image/Historical.jfif",
     "place": "Paharpur"
   },
   {
     "id": 9,
     "name": "Forest",
     "description": "Explore lush forests, wildlife, green landscapes, and peaceful natural environments.",
-    "image": "/Image/Forest.jpg",
+    "image": "/Image/forest.avif",
     "place": "Lawachara"
   },
   {
     "id": 10,
     "name": "Island",
     "description": "Experience beautiful islands, crystal-clear water, beaches, and unforgettable coastal views.",
-    "image": "/Image/Island.jpg",
+    "image": "/Image/Island.avif",
     "place": "Saint Martin's Island"
   }
 ]
