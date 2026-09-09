@@ -76,9 +76,30 @@ const AboutComponents = () => {
           </div>
         </div>
       </div>
+
+
+
+<div className="text-center">
+        
+        <p className="font-semibold text-gray-500">Explore new destinations, create unforgettable memories, and write your own adventure story.</p>
+        <p className="text-xl font-semibold text-gray-700 py-1">Explore new places, make unforgettable memories.</p>
+<h1 className="font-bold text-2xl pb-12 ">Discover the Adventure Within</h1>
+
+
+
+      <div className="flex items-center justify-center gap-6">
+        <img className="h-130 w-120 rounded-2xl" src="/Image/addd.jpg" alt="" />
+        <div className="flex flex-col  gap-6">
+          <img className="h-62 w-80 rounded-2xl" src="/Image/add2.jfif" alt="" />
+          <img className="h-62 w-80 rounded-2xl" src="/Image/aadd3.jpg" alt="" />
+        </div>
+      </div>
+</div>
       <div>
         {blogs?.map((c) => (
-        <img className="h-60 w-80" src={c?.image} alt="" />
+        <div>
+
+        </div>
          
         ))}
       </div>
