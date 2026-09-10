@@ -166,25 +166,38 @@ const SingleBlogs = () => {
       <div>
         
       </div>
-<div  className="flex  gap-4 justify-center py-8">
-  {categories?.slice(7,10).map((c) => (
-              <div className="flex gap-4 rounded-md shadow-2xl " key={c.id}>
-                <img className="h-18 rounded-l-md w-28" src={c?.image} alt="" />
-                
-                <div className="w-55">
-                  <p className="text-sm font-bold ">{c.name}</p>
-                <p className="text-xs text-gray-400">{c.description}</p>
-                 <div className="flex  pb-1 items-center">
-            <p className=" text-xs font-semibold text-gray-700  items-center">Reating:</p>
-            <space></space>
-            <TiStarFullOutline className="text-xs text-orange-500" />
-            <TiStarFullOutline className=" text-xs text-orange-500" />
-            <TiStarFullOutline className=" text-xs text-orange-500" />
-            <TiStarFullOutline className="text-xs text-orange-500" />
-                </div>
-          </div>
-              </div>
-            ))}
+<div className="flex flex-col lg:flex-row gap-4 justify-center py-8">
+  {categories?.slice(7, 10).map((c) => (
+    <div
+      className="flex gap-4 rounded-md shadow-2xl w-full sm:w-100 lg:w-auto mx-auto"
+      key={c.id}
+    >
+      <img
+        className="h-18 rounded-l-md w-28"
+        src={c?.image}
+        alt=""
+      />
+
+      <div className="w-55">
+        <p className="text-sm font-bold">{c.name}</p>
+
+        <p className="text-xs text-gray-400">
+          {c.description}
+        </p>
+
+        <div className="flex pb-1 items-center">
+          <p className="text-xs font-semibold text-gray-700">
+            Rating:
+          </p>
+
+          <TiStarFullOutline className="text-xs text-orange-500" />
+          <TiStarFullOutline className="text-xs text-orange-500" />
+          <TiStarFullOutline className="text-xs text-orange-500" />
+          <TiStarFullOutline className="text-xs text-orange-500" />
+        </div>
+      </div>
+    </div>
+  ))}
 </div>
     </div>
   );
