@@ -1,4 +1,5 @@
 import React from "react";
+import { ImEarth } from "react-icons/im";
 import { MdEmail, MdMarkEmailRead, MdOutlineEmail, MdOutlinePhoneAndroid } from "react-icons/md";
 const ContactSection = () => {
   return (
@@ -22,7 +23,8 @@ const ContactSection = () => {
          <MdEmail className="text-gray-500 text-xs" />
           <p className="text-xs text-gray-500">rintymoni0@gmail.com</p>
         </div>
-        <div>
+        <div className="flex items-center gap-1">
+          <ImEarth  className="text-gray-500 text-xs"/>
           <p className="text-xs text-gray-500">www.website.come</p>
         </div>
       </div>
