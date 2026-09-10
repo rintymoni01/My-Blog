@@ -10,7 +10,7 @@ const BlogComponents = () => {
     return (
         
        <div>
-         <div className='flex gap-8 pt-12 justify-center'>
+         <div className='flex gap-8  justify-center'>
             {categories?.slice(0,3).map(c=>(
 <div className="card bg-base-100 w-90 shadow-sm">
   <figure>
