@@ -1,9 +1,12 @@
 import React from 'react';
+import SuccessCategory from './SeccessComponents/SuccessCategory';
+import HomeCard from '../Home/HomeComponents/HomeCard';
 
 const SuccessStory = () => {
     return (
         <div>
-            <p> SuccessStory</p>
+           <SuccessCategory></SuccessCategory>
+           <HomeCard></HomeCard>
         </div>
     );
 };
