@@ -1,5 +1,5 @@
 import React from "react";
-import { MdMarkEmailRead, MdOutlineEmail, MdOutlinePhoneAndroid } from "react-icons/md";
+import { MdEmail, MdMarkEmailRead, MdOutlineEmail, MdOutlinePhoneAndroid } from "react-icons/md";
 const ContactSection = () => {
   return (
     <div>
@@ -18,8 +18,13 @@ const ContactSection = () => {
           
         </div>
         <p className="text-gray-700 text-sm font-bold">Mail & Website</p>
-        <p >rintymoni0@gmail.com</p>
-        <p>www.website.come</p>
+        <div className="flex items-center gap-1">
+         <MdEmail className="text-gray-500 text-xs" />
+          <p className="text-xs text-gray-500">rintymoni0@gmail.com</p>
+        </div>
+        <div>
+          <p className="text-xs text-gray-500">www.website.come</p>
+        </div>
       </div>
       {/* <p><MdOutlinePhoneAndroid /></p>
           <p><MdOutlineLocationOn /></p> */}
