@@ -60,17 +60,66 @@ const ContactSection = () => {
         </div>
       </div>
       <div>
-        <div>
+        <div className="flex">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4851008789146!2d90.42419807532019!3d23.7657340881875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c754583dd209%3A0xdd0c5fcc7d2d3836!2sBetopia%20Group%20-%20Corporate%20Office!5e0!3m2!1sen!2sbd!4v1789056770328!5m2!1sen!2sbd"
             width="500"
             height="450"
-            style={{border:0}}
+            style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="strict-origin-when-cross-origin"
           ></iframe>
         </div>
+
+        <div className="flex flex-col gap-2">
+  <label className="input validator focus-within:outline-none focus-within:ring-0">
+    <input
+      type="text"
+      required
+      placeholder="Username"
+      pattern="[A-Za-z][A-Za-z0-9\-]*"
+      minLength="3"
+      maxLength="30"
+      title="Only letters, numbers or dash"
+    />
+  </label>
+
+  <p className="validator-hint hidden">
+    Must be 3 to 30 characters
+  </p>
+
+  <label className="input validator focus-within:outline-none focus-within:ring-0">
+    <input
+      type="password"
+      required
+      placeholder="Password"
+      minLength="8"
+      pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+    />
+  </label>
+
+  <p className="validator-hint hidden">
+    Must be more than 8 characters
+  </p>
+
+  <label className="input validator focus-within:outline-none focus-within:ring-0">
+    <input
+      type="tel"
+      className="tabular-nums"
+      required
+      placeholder="Phone"
+      pattern="[0-9]*"
+      minLength="10"
+      maxLength="10"
+      title="Must be 10 digits"
+    />
+  </label>
+
+  <p className="validator-hint hidden">
+    Must be 10 digits
+  </p>
+</div>
       </div>
     </div>
   );
