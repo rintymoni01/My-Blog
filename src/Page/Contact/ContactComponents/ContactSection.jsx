@@ -37,24 +37,24 @@ const ContactSection = () => {
           <div className=" w-8 pl-2 rounded-sm  py-3 bg-gray-600">
             <MdOutlinePhoneAndroid className=" text-white" />
           </div>
-          <p className="text-gray-700 text-sm font-bold pt-1">Mail & Website</p>
+          <p className="text-gray-700 text-sm font-bold pt-1">Contact</p>
           <div className="flex items-center gap-1 py-1">
             <MdOutlinePhoneAndroid className="text-gray-500 text-xs" />
-            <p className="text-xs text-gray-500">rintymoni0@gmail.com</p>
+            <p className="text-xs text-gray-500">018********</p>
           </div>
           <div className="flex items-center gap-1">
             <MdOutlinePhoneAndroid className="text-gray-500 text-xs" />
-            <p className="text-xs text-gray-500">www.website.come</p>
+            <p className="text-xs text-gray-500">018********</p>
           </div>
         </div>
         <div className="flex flex-col justify-center border w-90  rounded-md border-gray-200  items-center  py-8">
           <div className=" w-8 pl-2 rounded-sm  py-5 bg-gray-600">
             <MdLocationOn className=" text-white" />
           </div>
-          <p className="text-gray-700 text-sm font-bold pt-1">Mail & Website</p>
+          <p className="text-gray-700 text-sm font-bold pt-1">Address</p>
           <div className="flex items-center gap-1 py-1">
             <MdLocationOn  className="text-gray-500 text-xs" />
-            <p className="text-xs text-gray-500">rintymoni0@gmail.com</p>
+            <p className="text-xs text-gray-500"></p>
           </div>
           
         </div>
