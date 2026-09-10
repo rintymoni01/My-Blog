@@ -40,11 +40,11 @@ const ContactSection = () => {
           <p className="text-gray-700 text-sm font-bold pt-1">Contact</p>
           <div className="flex items-center gap-1 py-1">
             <MdOutlinePhoneAndroid className="text-gray-500 text-xs" />
-            <p className="text-xs text-gray-500">018********</p>
+            <p className="text-xs text-gray-500">++88018********</p>
           </div>
           <div className="flex items-center gap-1">
             <MdOutlinePhoneAndroid className="text-gray-500 text-xs" />
-            <p className="text-xs text-gray-500">018********</p>
+            <p className="text-xs text-gray-500">017********</p>
           </div>
         </div>
         <div className="flex flex-col justify-center border w-90  rounded-md border-gray-200  items-center  py-8">
@@ -54,7 +54,7 @@ const ContactSection = () => {
           <p className="text-gray-700 text-sm font-bold pt-1">Address</p>
           <div className="flex items-center gap-1 py-1">
             <MdLocationOn  className="text-gray-500 text-xs" />
-            <p className="text-xs text-gray-500"></p>
+            <p className="text-xs text-gray-500">House 12, Road 3, Mohakhali, Dhaka 1212, Bangladesh</p>
           </div>
           
         </div>
