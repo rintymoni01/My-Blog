@@ -32,7 +32,7 @@ const HomeCard = () => {
                 <div className="flex w-full lg:w-auto shadow-md rounded-md pl-2 gap-2 items-center">
                   <FaCartShopping className="text-6xl text-gray-700" />
             
-                  <div className="w-70 py-4">
+                  <div className="w-70 py-2">
                     <p className="text-sm pb-1 font-bold">Shopping</p>
                     <p className="text-sm pb-1 text-gray-500">
                       Shop for everything you need on your trip.

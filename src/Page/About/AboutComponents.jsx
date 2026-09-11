@@ -56,7 +56,7 @@ const AboutComponents = () => {
 
           {/* Text */}
           <div className="text-center lg:text-left">
-            <p className="text-2xl sm:text-3xl lg:text-3xl font-bold pt-2 lg:pt-16">
+            <p className="text-2xl sm:text-3xl lg:text-3xl font-bold pt-2 lg:pt-6">
               Colorful flowers in a peaceful garden.
             </p>
 

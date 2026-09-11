@@ -28,11 +28,12 @@ const Hero = () => {
 
   <div>
     <div className="lg:pt-35 pt-24 pl-0 lg:pl-12">
-      <Link to={"/blog"}>
-      <div className="rounded-md mx-auto font-semibold lg:mx-0 w-36 hover:text-white bg-pink-500 hover:font-semibold duration-1000 shadow-2xl px-6 py-1 hover:bg-black text-white">
-        Explore Now
-      </div></Link>
+  <Link to="/blog">
+    <div className="rounded-md mx-auto lg:mx-0 w-fit whitespace-nowrap font-semibold hover:text-white bg-pink-500 duration-1000 shadow-2xl px-6 py-2 hover:bg-black text-white">
+      Explore Now
     </div>
+  </Link>
+</div>
 
     <div className="hidden lg:block absolute right-6 top-1/2 -translate-y-1/2 border rounded-md text-white bg-black font-semibold border-gray-300 px-6 py-1 rotate-90">
       <u><i>Rinty moni..</i></u>
