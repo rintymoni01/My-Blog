@@ -62,11 +62,11 @@ const AboutComponents = () => {
             <p className="py-4 text-sm font-semibold text-gray-500">
               Let life be like nature—colorful, beautiful, and free. where there
               are rivers, endless blue skies, and beautiful moments that make
-              the heart feel alive.
+              the heart feel alive.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <p className=" text-sm font-semibold text-gray-500">
               
-              Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit sed
+              Lorem ipsum dolor sit amet consectetur adipisicing  elit sed
               do eiusmod tempor incididunt ut labore et <br /> dolore magna
               aliqua.
             </p>
