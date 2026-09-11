@@ -62,7 +62,7 @@ const ContactSection = () => {
      <div className="flex flex-col lg:flex-row gap-6 px-4 container mx-auto">
 
   {/* Map */}
-  <div className="w-90 pl-18 lg:w-1/2 flex justify-center">
+  <div className="w-90 pl-18 lg:w-1/2 flex pb-8 justify-center">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4851008789146!2d90.42419807532019!3d23.7657340881875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c754583dd209%3A0xdd0c5fcc7d2d3836!2sBetopia%20Group%20-%20Corporate%20Office!5e0!3m2!1sen!2sbd!4v1789056770328!5m2!1sen!2sbd"
       className="w-full h-[450px] rounded-lg"
