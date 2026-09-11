@@ -32,7 +32,7 @@ const BlogComponents = () => {
         <div className="card-actions items-center justify-between">
           <p className="font-bold">{c?.place}</p>
 
-          <Link>
+          <Link to={"/contact"}>
             <button className="btn btn-primary">View Now</button>
           </Link>
         </div>

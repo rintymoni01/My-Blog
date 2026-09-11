@@ -3,7 +3,8 @@ import { LiaRProject } from "react-icons/lia";
 
 const Footer = () => {
   return (
-    <div className="py-12 flex justify-between container mx-auto px-4">
+   <div className="bg-gray-100">
+     <div className="py-12 flex justify-between container  mx-auto px-4">
      <div className="w-70">
          <LiaRProject className="text-7xl" />
       <p className="text-xs text-gray-500 py-2 font-semibold">
@@ -44,6 +45,7 @@ const Footer = () => {
      </div>
 
     </div>
+   </div>
   );
 };
 

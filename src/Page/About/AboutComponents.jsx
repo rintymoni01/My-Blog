@@ -2,6 +2,7 @@ import React from "react";
 import useData from "../../Components/Shared/Hooks/useData";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { Link } from "react-router";
+import HomeCard from "../Home/HomeComponents/HomeCard";
 
 const AboutComponents = () => {
   const { blogs, categories } = useData();
@@ -82,7 +83,7 @@ const AboutComponents = () => {
               </p>
             </div>
 
-            <Link>
+            <Link to={"/blog"}>
               <div className="bg-blue-900 text-white font-semibold text-center duration-700 rounded-4xl hover:bg-pink-700 py-2 w-34 mx-auto lg:mx-0">
                 <p>See Views</p>
               </div>
@@ -90,15 +91,11 @@ const AboutComponents = () => {
           </div>
         </div>
       </div>
+      <div>
+<HomeCard></HomeCard>
+      </div>
 
-      {/* <div>
-        {blogs?.map((c) => (
-        <div>
-
-        </div>
-         
-        ))}
-      </div> */}
+     
     </div>
   );
 };
