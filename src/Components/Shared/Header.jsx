@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="bg-black/25 ">
       <div className="flex justify-between items-center container py-2 mx-auto px-4">
-        <img className="h-8 w-26" src="/Image/rrrrrr.png" alt="" />
+        <img className="h-10 w-28" src="/Image/rrrrrr.png" alt="" />
         <div className="text-white flex gap-4">
           <NavLink
             className={({ isActive }) => (isActive ? `text-green-500` : ``)}
