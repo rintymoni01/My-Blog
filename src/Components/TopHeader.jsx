@@ -6,7 +6,7 @@ const TopHeader = () => {
         <div>
              <div className="bg-linear-to-r lg:block hidden  from-[#00FFFF] to-[#FF00FF] py-1">
            <div className ="flex text-white justify-between items-center container mx-auto px-4">
-            <div className="gap-4 flex text-xl text-[rgb(50,32,51)] ">
+            <div className="gap-4 flex text-xl text-black ">
                 <FaFacebook/>
                 <FaInstagram />
                 <FaTwitterSquare />
@@ -16,7 +16,7 @@ const TopHeader = () => {
                 <p>About</p>
                 <p>Blog</p>
                 
-                <p>Privacy</p>
+                <p>Success Story</p>
               
             </div>
                 
