@@ -18,9 +18,47 @@ const YourChoose = () => {
         : blogs;
 
     return (
-        <div className="bg-gray-100 pt-10">
+        <div className="bg-gray-100 pt-4">
 
-           <div className="flex flex-col lg:flex-row justify-between items-center lg:items-center container mx-auto px-4 gap-5 lg:gap-0">
+              <div className="text-center py-5 sm:py-6 lg:py-8 px-3">
+  <p className="font-bold text-sm sm:text-base lg:text-base text-gray-700">
+    Come, let’s wander somewhere unknown—
+  </p>
+
+  <p className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-700 py-1">
+    where there are rivers, endless blue skies,
+  </p>
+
+  <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-700">
+    and beautiful moments that make the heart feel alive.
+  </p>
+</div>
+      <div className="overflow-hidden w-full">
+        <div className="flex gap-4 w-max animate-scroll">
+          {/* First set */}
+          {categories?.map((c) => (
+            <div key={c.id} className="shrink-0">
+              <img
+                className="h-35 w-45 object-cover rounded-md"
+                src={c?.image}
+              />
+            </div>
+          ))}
+
+          {/* Duplicate set for infinite loop */}
+          {categories?.map((c) => (
+            <div key={`duplicate-${c.id}`} className="shrink-0">
+              <img
+                className="h-35 w-45 object-cover rounded-md"
+                src={c?.image}
+                alt=""
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+           <div className="flex flex-col lg:flex-row justify-between items-center pt-8 lg:items-center container mx-auto px-4 gap-5 lg:gap-0">
 
   {/* Text */}
   <div className="text-center lg:text-left">

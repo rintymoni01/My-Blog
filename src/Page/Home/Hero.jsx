@@ -36,7 +36,9 @@ const Hero = () => {
       <u><i>Rinty moni..</i></u>
     </div>
   </div>
-</div>
+</div>      
+
+
         </div>
     );
 };
