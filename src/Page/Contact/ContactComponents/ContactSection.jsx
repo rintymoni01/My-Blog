@@ -59,70 +59,82 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4">
-        <div className="flex">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4851008789146!2d90.42419807532019!3d23.7657340881875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c754583dd209%3A0xdd0c5fcc7d2d3836!2sBetopia%20Group%20-%20Corporate%20Office!5e0!3m2!1sen!2sbd!4v1789056770328!5m2!1sen!2sbd"
-            width="500"
-            height="450"
-            style={{ border: 0 }}
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-          ></iframe>
-        </div>
+     <div className="flex flex-col lg:flex-row gap-6 px-4 container mx-auto">
 
-        <div className="flex flex-col gap-2">
-  <label className="input validator focus-within:outline-none focus-within:ring-0">
-    <input
-      type="text"
+  {/* Map */}
+  <div className="w-90 pl-18 lg:w-1/2 flex justify-center">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4851008789146!2d90.42419807532019!3d23.7657340881875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c754583dd209%3A0xdd0c5fcc7d2d3836!2sBetopia%20Group%20-%20Corporate%20Office!5e0!3m2!1sen!2sbd!4v1789056770328!5m2!1sen!2sbd"
+      className="w-full h-[450px] rounded-lg"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="strict-origin-when-cross-origin"
+    ></iframe>
+  </div>
+
+  {/* Form */}
+  <div className="w-90 lg:w-1/2 flex pt-34   flex-col gap-3">
+
+    {/* Username */}
+    <label className="input validator w-90 focus-within:outline-none focus-within:ring-0">
+      <input
+        type="text"
+        className="w-full"
+        required
+        placeholder="Username"
+        pattern="[A-Za-z][A-Za-z0-9\-]*"
+        minLength="3"
+        maxLength="30"
+        title="Only letters, numbers or dash"
+      />
+    </label>
+
+    {/* Phone */}
+    <label className="input validator w-90 focus-within:outline-none focus-within:ring-0">
+      <input
+        type="tel"
+        className="tabular-nums w-90"
+        required
+        placeholder="Phone"
+        pattern="[0-9]*"
+        minLength="10"
+        maxLength="10"
+        title="Must be 10 digits"
+      />
+    </label>
+
+    {/* Password */}
+    <label className="input validator w-90 focus-within:outline-none focus-within:ring-0">
+      <input
+        type="password"
+        className="w-90"
+        required
+        placeholder="Password"
+        minLength="8"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+      />
+    </label>
+
+    {/* Message */}
+    <textarea
+      className="textarea textarea-bordered w-90 focus:outline-none focus:ring-0"
+      placeholder="Write your message..."
+      maxLength={30}
+      rows={4}
       required
-      placeholder="Username"
-      pattern="[A-Za-z][A-Za-z0-9\-]*"
-      minLength="3"
-      maxLength="30"
-      title="Only letters, numbers or dash"
-    />
-  </label>
+    ></textarea>
 
-   <label className="input validator focus-within:outline-none focus-within:ring-0">
-    <input
-      type="tel"
-      className="tabular-nums"
-      required
-      placeholder="Phone"
-      pattern="[0-9]*"
-      minLength="10"
-      maxLength="10"
-      title="Must be 10 digits"
-    />
-  </label>
+    {/* Button */}
+    <button
+      type="submit"
+      className="btn bg-pink-500 text-white border-none hover:bg-pink-600 w-40"
+    >
+      Send Message
+    </button>
 
-  <p className="validator-hint hidden">
-    Must be 10 digits
-  </p>
-
-  <p className="validator-hint hidden">
-    Must be 3 to 30 characters
-  </p>
-
-  <label className="input validator focus-within:outline-none focus-within:ring-0">
-    <input
-      type="password"
-      required
-      placeholder="Password"
-      minLength="8"
-      pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-    />
-  </label>
-
-  <p className="validator-hint hidden">
-    Must be more than 8 characters
-  </p>
-
- 
+  </div>
 </div>
-      </div>
     </div>
   );
 };
