@@ -3,13 +3,12 @@ import useData from "../../Components/Shared/Hooks/useData";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 import HomeCard from "../Home/HomeComponents/HomeCard";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const AboutComponents = () => {
   const { blogs, categories } = useData();
   return (
     <div>
-    
       <div className="text-center pt-8">
         <p className="font-semibold text-gray-500">
           Explore new destinations, create unforgettable memories, and write
@@ -24,9 +23,10 @@ const AboutComponents = () => {
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-6">
           {/* Main Image */}
+
           <img
             className="h-80 sm:h-100 lg:h-130 w-full sm:w-100 lg:w-120 rounded-2xl object-cover"
-            src="/Image/addd.jpg"
+            src={`${import.meta.env.BASE_URL}Image/addd.jpg`}
             alt=""
           />
 
@@ -34,13 +34,13 @@ const AboutComponents = () => {
           <div className="flex flex-row lg:flex-col gap-4 lg:gap-6 w-full sm:w-auto justify-center">
             <img
               className="h-40 sm:h-50 lg:h-62 w-[45%] sm:w-55 lg:w-80 rounded-2xl object-cover"
-              src="/Image/add2.jfif"
+              src={`${import.meta.env.BASE_URL}Image/add2.jfif`}
               alt=""
             />
 
             <img
               className="h-40 sm:h-50 lg:h-62 w-[45%] sm:w-55 lg:w-80 rounded-2xl object-cover"
-              src="/Image/aadd3.jpg"
+              src={`${import.meta.env.BASE_URL}Image/aadd3.jpg`}
               alt=""
             />
           </div>
@@ -52,8 +52,8 @@ const AboutComponents = () => {
           {/* Image */}
           <img
             className="w-full lg:w-150 h-[30vh] sm:h-[35vh] lg:h-[40vh] rounded-2xl object-cover"
-            src="/Image/colourfull.jfif"
-            alt=""
+            src={`${import.meta.env.BASE_URL}Image/colourfull.jfif`}
+            alt="Colorful flowers"
           />
 
           {/* Text */}
@@ -65,13 +65,13 @@ const AboutComponents = () => {
             <p className="py-4 text-sm font-semibold text-gray-500">
               Let life be like nature—colorful, beautiful, and free. where there
               are rivers, endless blue skies, and beautiful moments that make
-              the heart feel alive.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              the heart feel alive.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
             </p>
             <p className=" text-sm font-semibold text-gray-500">
-              
-              Lorem ipsum dolor sit amet consectetur adipisicing  elit sed
-              do eiusmod tempor incididunt ut labore et <br /> dolore magna
-              aliqua.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+              eiusmod tempor incididunt ut labore et <br /> dolore magna aliqua.
             </p>
 
             <div className="gap-2 flex pb-4 items-center justify-center lg:justify-start">
@@ -94,10 +94,8 @@ const AboutComponents = () => {
         </div>
       </div>
       <div>
-<HomeCard></HomeCard>
+        <HomeCard></HomeCard>
       </div>
-
-     
     </div>
   );
 };

@@ -8,7 +8,9 @@ const Dicplay = () => {
   return (
     <div
   className="h-[45vh] sm:h-[50vh] lg:h-[70vh] w-full lg:w-360 bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: `url("/Image/dicplay.jfif")` }}
+  style={{
+  backgroundImage: `url("${import.meta.env.BASE_URL}Image/dicplay.jfif")`,
+}}
 >
   <div className="py-20 sm:py-24 lg:py-45 text-center lg:text-left">
 
