@@ -1,8 +1,8 @@
 import React from 'react';
-
-import Destinations from './HomeComponents/Destinations';
 import YourChoose from './HomeComponents/YourChoose';
 import HomeCard from './HomeComponents/HomeCard';
+import Destinations from './HomeComponents/Destinations';
+
 
 
 
@@ -15,8 +15,8 @@ const Home = () => {
                 
              <YourChoose></YourChoose>
             
-            <Destinations></Destinations>
-            <HomeCard></HomeCard>
+            <Destinations ></Destinations>
+            <HomeCard ></HomeCard>
               
                 
                

@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { NavLink } from "react-router";
+
 import { FaTelegramPlane, FaBars, FaTimes } from "react-icons/fa";
 import { IoSearchOutline, IoCartOutline } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -22,11 +23,13 @@ const Navbar = () => {
           <img
             className="h-10 w-28"
             src="/Image/rrrrrr.png"
+
             alt="Logo"
           />
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex text-white gap-4 items-center">
+           
             <NavLink className={navLinkClass} to="/">
               Home
             </NavLink>

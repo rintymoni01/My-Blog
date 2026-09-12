@@ -103,7 +103,7 @@ const Footer = () => {
 
       <img
         className="h-12 w-60 object-contain object-left"
-        src="/Image/appStore.png"
+        src="/My-Blog/Image/appStore.png"
         alt="Download App"
       />
     </div>

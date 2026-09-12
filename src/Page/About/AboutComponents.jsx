@@ -1,13 +1,15 @@
 import React from "react";
 import useData from "../../Components/Shared/Hooks/useData";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
-import { Link } from "react-router";
+
 import HomeCard from "../Home/HomeComponents/HomeCard";
+import { Link} from "react-router-dom";
 
 const AboutComponents = () => {
   const { blogs, categories } = useData();
   return (
     <div>
+    
       <div className="text-center pt-8">
         <p className="font-semibold text-gray-500">
           Explore new destinations, create unforgettable memories, and write

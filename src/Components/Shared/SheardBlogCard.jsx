@@ -1,7 +1,8 @@
 import React from "react";
 import { TiStarFullOutline } from "react-icons/ti";
-import { Link } from "react-router";
+
 import { RiArrowRightLongLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 const SheardBlogCard = ({ blog }) => {
   return (
     <div className=" w-72 shadow-md rounded-md">
@@ -18,6 +19,7 @@ const SheardBlogCard = ({ blog }) => {
               <TiStarFullOutline />
             </div>
            <div>
+          
   <Link to={`/home/${blog.id}`}>
     <button className="flex gap-1 items-center px-3 rounded-md font-semibold bg-sky-800 text-white">
       <p>See all</p>

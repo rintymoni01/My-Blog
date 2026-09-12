@@ -1,6 +1,7 @@
 import React from 'react';
 import useData from '../../Components/Shared/Hooks/useData';
-import { Link } from 'react-router';
+
+import { Link } from 'react-router-dom';
 
 
 

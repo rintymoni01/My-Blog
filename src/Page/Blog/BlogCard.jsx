@@ -2,13 +2,14 @@ import React from 'react';
 import { FaCarSide, FaHouseUser } from 'react-icons/fa';
 import { FaCartShopping } from 'react-icons/fa6';
 import { GoStarFill } from 'react-icons/go';
-import { Link } from 'react-router';
+
 import HomeCard from '../Home/HomeComponents/HomeCard';
+import { Link } from 'react-router-dom';
 
 const BlogCard = () => {
     return (
        <div className='py-8 bg-gray-200'>
-     
+    
        <div
   className="h-[45vh] sm:h-[50vh] lg:h-[70vh] w-full lg:w-360 bg-cover bg-center bg-no-repeat"
   style={{ backgroundImage: `url("/Image/dicplay.jfif")` }}

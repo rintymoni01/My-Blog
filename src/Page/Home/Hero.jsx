@@ -1,13 +1,15 @@
 import React from 'react';
 
 import Header from '../../Components/Shared/Header';
-import { Link } from 'react-router';
+
+import {Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
         <div
             className="h-[600px] sm:h-[500px] md:h-[550px] lg:h-[80vh] bg-cover bg-center bg-no-repeat"
-           style={{ backgroundImage: `url('/Image/bg.jpg')` }}
+          style={{ backgroundImage: `url('/My-Blog/Image/bg.jpg')` }}
+// অথবা <img src="/My-Blog/Image/bg.jpg" />
         
         >
             <div>
