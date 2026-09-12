@@ -8,28 +8,22 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const navLinkClass = ({ isActive }) =>
-    isActive
-      ? "text-green-500 font-bold text-xl"
-      : "font-bold text-xl";
+    isActive ? "text-green-500 font-bold text-xl" : "font-bold text-xl";
 
   return (
     <div className="bg-black/25">
       <div className="container mx-auto px-4 py-2">
-
         {/* Navbar Top */}
         <div className="flex justify-between items-center">
-
           {/* Logo */}
           <img
             className="h-10 w-28"
-            src="/Image/rrrrrr.png"
-
+            src={`${import.meta.env.BASE_URL}Image/rrrrrr.png`}
             alt="Logo"
           />
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex text-white gap-4 items-center">
-           
             <NavLink className={navLinkClass} to="/">
               Home
             </NavLink>
@@ -47,9 +41,7 @@ const Navbar = () => {
                 Contact:
               </NavLink>
 
-              <p className="text-gray-100 font-bold">
-                (01834688332)
-              </p>
+              <p className="text-gray-100 font-bold">(01834688332)</p>
             </div>
 
             <div className="flex items-center gap-4">
@@ -77,7 +69,6 @@ const Navbar = () => {
         {/* Mobile & Tablet Menu */}
         {open && (
           <div className="lg:hidden flex flex-col gap-4 py-5 text-white">
-
             <NavLink
               onClick={() => setOpen(false)}
               className={navLinkClass}
@@ -110,10 +101,7 @@ const Navbar = () => {
               Contact
             </NavLink>
 
-            <p className="text-gray-100 font-bold">
-              (01834688332)
-            </p>
-
+            <p className="text-gray-100 font-bold">(01834688332)</p>
           </div>
         )}
       </div>

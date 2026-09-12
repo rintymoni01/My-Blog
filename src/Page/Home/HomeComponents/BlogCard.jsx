@@ -4,7 +4,11 @@ const BlogCard = ({ blog }) => {
   return (
     <div className=" py-1 rounded-md">
       <div className="card card-side flex lg:flex-row items-center flex-col bg-base-100 border border-gray-100 ">
-        <img className="h-55 w-60 rounded-md" src={blog.image} alt="Movie" />
+   <img
+  className="h-55 w-60 rounded-l-md object-cover"
+  src={`${import.meta.env.BASE_URL}${blog.image}`}
+  alt={blog.title}
+/>
 
         <div className="card-body flex flex-col gap-4">
           <h2 className="card-title text-xl font-bold ">{blog.title}</h2>
