@@ -10,8 +10,7 @@ const BlogComponents = () => {
     const {categories} = useData()
     return (
         
-       <div>
-         <div className="flex flex-col lg:flex-row gap-8 justify-center">
+   <div className="flex flex-col lg:flex-row gap-8 justify-center">
   {categories?.slice(0, 3).map((c) => (
     <div
       key={c.id}
@@ -19,7 +18,7 @@ const BlogComponents = () => {
     >
       <figure>
         <img
-          src={c?.image}
+          src={`${import.meta.env.BASE_URL}${c.image}`}
           alt={c?.name}
           className="w-full"
         />
@@ -33,16 +32,16 @@ const BlogComponents = () => {
         <div className="card-actions items-center justify-between">
           <p className="font-bold">{c?.place}</p>
 
-          <Link to={"/contact"}>
-            <button className="btn btn-primary">View Now</button>
+          <Link to="/contact">
+            <button className="btn btn-primary">
+              View Now
+            </button>
           </Link>
         </div>
       </div>
     </div>
   ))}
 </div>
-         
-       </div>
      
     );
 };

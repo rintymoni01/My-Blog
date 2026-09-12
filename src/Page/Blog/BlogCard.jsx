@@ -12,7 +12,9 @@ const BlogCard = () => {
     
        <div
   className="h-[45vh] sm:h-[50vh] lg:h-[70vh] w-full lg:w-360 bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: `url("/Image/dicplay.jfif")` }}
+  style={{
+  backgroundImage: `url("${import.meta.env.BASE_URL}Image/dicplay.jfif")`
+}}
 >
   <div className="h-full flex flex-col justify-center items-center lg:items-start py-10 lg:py-0">
     
